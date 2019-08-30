@@ -38,9 +38,9 @@ EXT_TO_OUT_FORMATS = {
 }
 ACODECS = {
     'mp3': 'libmp3lame',
-    'aac': 'aac',
+    'aac': 'libfdk_aac',
     'flac': 'flac',
-    'm4a': 'aac',
+    'm4a': 'libfdk_aac',
     'opus': 'libopus',
     'vorbis': 'libvorbis',
     'wav': None,
